@@ -71,6 +71,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+a:hover{
+
+
+  color:transparent;
+}
+
+
 ul[role="list"] {
   list-style: none;
 }
