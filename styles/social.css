@@ -6,6 +6,13 @@ height:1.5rem;
 display:block;
   -webkit-background-clip: initial;
   background-clip: initial ;
+  
+    &:hover {
+    background: none;
+    background-image: var(--bg-img); /* reaplica SUA imagem */
+    color: inherit;
+  }
+
 
 &[aria-label="tiktok"]{
   --bg-img: url(../assets/icons/tiktok.svg);
@@ -23,7 +30,7 @@ display:block;
   }
 }
 
-&[aria-label="twitter"]{
+&[aria-label="x"]{
   --bg-img: url(../assets/icons/twitter.svg);
 
   &:hover{
